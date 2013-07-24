@@ -92,3 +92,6 @@ INSTALLED_APPS += DEPLOYER_APPS
 TEMPLATE_CONTEXT_PROCESSORS += (
         'django.core.context_processors.static',
         )
+
+
+DEBUG = True
