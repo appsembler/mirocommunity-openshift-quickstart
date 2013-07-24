@@ -1,3 +1,6 @@
 test_project/db.sl3
 test_project/static/
+test_project/media/
 test_project/whoosh_index/
+
+*.py[oc]
