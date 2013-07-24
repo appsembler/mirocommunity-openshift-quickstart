@@ -1,0 +1,16 @@
+#!/bin/bash
+REQUIREMENTS=requirements.txt
+PYVERSION=Python2.7
+STATIC_URL=/static/
+DJANGO_SETTINGS=test_project.settings
+ADMIN_PASSWORD=testtest
+PROVIDER=openshift
+APPLICATION_NAME=mirotest
+MANAGEPY=./manage.py
+SECRET_KEY="v9=gy-xvubi#8@ulo1#c+21^i3$8*f_4*!6w6p12y$jt9y#c4n"
+MEDIA_URL=/media/
+
+sh deployer_scripts/setgiturl.sh $APPLICATION_NAME
+chmod a+x .openshift/action_hooks/*
+
+echo "$0 has been executed!"

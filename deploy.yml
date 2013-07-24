@@ -1,0 +1,10 @@
+admin_password: testtest
+application_name: mirotest
+django_settings: test_project.settings
+managepy: ./manage.py
+media_url: /media/
+provider: openshift
+pyversion: Python2.7
+requirements: requirements.txt
+secret_key: '"v9=gy-xvubi#8@ulo1#c+21^i3$8*f_4*!6w6p12y$jt9y#c4n"'
+static_url: /static/

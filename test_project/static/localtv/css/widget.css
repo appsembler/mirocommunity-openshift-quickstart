@@ -1,0 +1,299 @@
+/* Reset styles */
+html body div.mc-widget,
+html body div.mc-widget div,
+html body div.mc-widget ul,
+html body div.mc-widget li,
+html body div.mc-widget span,
+html body div.mc-widget a,
+html body div.mc-widget img,
+html body div.mc-widget-v2,
+html body div.mc-widget-v2 div,
+html body div.mc-widget-v2 span,
+html body div.mc-widget-v2 ul,
+html body div.mc-widget-v2 li,
+html body div.mc-widget-v2 img,
+html body div.mc-widget-v2 a {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: inherit;
+    vertical-align: baseline;
+    float: none;
+    color: inherit;
+    min-width: inherit;
+    text-shadow: none;
+}
+/* Widget v1 */
+html body div.mc-widget{
+font-family: Arial, Helvetica, sans-serif;
+color: #333;
+}
+
+html body div.mc-widget h2 {
+display: block;
+font-size: 1.5em;
+font-weight: bold;
+}
+
+html body div.mc-widget ul a{
+list-style: none;
+color: #333;
+text-decoration: none;
+}
+
+html body div.mc-widget ul{
+margin: 0;
+padding: 0;
+float: left;
+clear: both;
+border-top: 1px solid #ccc;
+margin: 0;
+padding: 0;
+border-top: 1px solid #ccc;
+}
+
+html body div.mc-widget ul li{
+margin: 0;
+padding: 0;
+float: left;
+width: 100%;
+list-style: none;
+}
+
+html body div.mc-widget ul.mc-loading {
+    border: none;
+}
+html body div.mc-widget ul.mc-loading li span {
+    display: block;
+    background-image: url(../images/load-indicator.gif);
+    height: 19px;
+    width: 220px;
+    margin: 0 auto;
+}
+html body div.mc-widget ul li.mc-last{
+clear: both;
+}
+
+html body div.mc-widget ul li a{
+margin: 0;
+border-bottom: 1px solid #ccc;
+padding: 0px;
+float: left;
+width: 100%;
+display: block;
+}
+
+html body div.mc-widget ul li a:hover span.mc-title{
+text-decoration: underline;
+}
+
+html body div.mc-widget ul li a:hover{
+background: #f8f8f8;
+}
+
+html body div.mc-widget ul img{
+border: none;
+}
+
+html body div.mc-widget ul .mc-thumbnail .mc-play {
+    width: 35px;
+    height: 35px;
+    background-image: url(../images/widget_play.png);
+    display: none;
+}
+
+html body div.mc-widget ul a:hover .mc-thumbnail .mc-play {
+    display: block;
+    position: absolute;
+    top: 25px;
+    left: 40px;
+    z-index: 2;
+}
+
+html body div.mc-widget ul .mc-thumbnail{
+margin: 8px 15px 8px 0px;
+/*padding: 90px 0 0 0;*/
+display: block;
+border: 1px solid;
+text-align: center;
+width: 120px;
+height: 90px;
+float: left;
+overflow: hidden;
+position: relative;
+}
+
+html body div.mc-widget ul span.mc-title{
+margin: 0;
+display: block;
+padding: 10px 8px 0 0;
+height: 63px;
+font-size: 13px;
+overflow: hidden;
+}
+
+html body div.mc-widget ul span.mc-when{
+color: #666;
+margin: 0;
+font-size: 12px;
+padding: 10px 8px 0 0;
+display: block;
+text-transform: capitalize;
+}
+
+html body div.mc-widget .mc-from{
+color: #666;
+margin: 0;
+font-size: 11px;
+display: block;
+text-align: center;
+padding: 8px;
+clear: both;
+}
+/* Widget v2 */
+html body div.mc-widget-v2 > div{
+    color: #d3d3d3;
+    line-height: 16px;
+    background-image:url('../images/widget/bg_big.png');
+    padding-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html body div.mc-widget-v2 .mc-flat-bg {
+    margin-left: -10px;
+}
+
+html body div.mc-widget-small .mc-flat-bg {
+    width: 88px;
+    height: 68px;
+}
+
+html body div.mc-widget-medium .mc-flat-bg {
+    width: 140px;
+    height: 110px;
+}
+
+html body div.mc-widget-large .mc-flat-bg {
+    width: 222px;
+    height: 169px;
+    margin-top: -10px;
+}
+
+html body div.mc-widget-v2 .mc-flat-bg:hover {
+    background-repeat: no-repeat;
+}
+
+html body div.mc-widget-small .mc-flat-bg:hover {
+    background-image:url("../images/widget/overlay_small.png");
+    background-position: 0 46px;
+}
+
+html body div.mc-widget-medium .mc-flat-bg:hover {
+    background-image:url("../images/widget/overlay_medium.png");
+    background-position: 0 88px;
+
+}
+html body div.mc-widget-large .mc-flat-bg:hover {
+    background-image:url("../images/widget/overlay_large.png");
+    background-position: 0 147px;
+
+}
+
+html body div.mc-widget-v2 ul > li {
+    display: block;
+    background-repeat: no-repeat;
+    padding: 0 10px;
+    background-position: 10px 0;
+}
+
+html body div.mc-widget-large ul > li {
+    padding: 10px;
+}
+
+html body div.mc-widget-v2 {
+    background-image:url('../images/widget/bg_wrapper.png');
+    padding: 3px;
+}
+
+html body div.mc-widget-v2 A {
+    color: #D3D3D3;
+    text-decoration: none;
+    font-size: 11px;
+    line-height: 120%;
+}
+
+html body div.mc-widget-large A {
+    line-height: 140%;
+}
+
+html body div.mc-widget-v2 A IMG {
+    border: 0px;
+}
+
+html body div.mc-widget-v2 .mc-separator {
+    background-image:url('../images/widget/seperator.png');
+    height: 2px;
+    margin: 10px;
+}
+
+html body div.mc-widget-v2 div.mc-widget-title {
+    font-size: 13px;
+    padding: 10px 3px;
+    text-align: center;
+    color: #b0b0b0;
+}
+
+html body div.mc-widget-v2 div.mc-widget-title A {
+    font-size: inherit;
+}
+
+html body div.mc-widget-v2 .mc-when {
+    color: #8d8d8d;
+    display: block;
+}
+
+html body div.mc-widget-v2 .mc-title {
+    display: block;
+    color: #fff;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+html body div.mc-widget-v2 .mc-description {
+    display: block;
+    max-height: 32px;
+    overflow: hidden;
+}
+html body div.mc-widget-v2 li > div {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+html body div.mc-widget-v2 .mc-footer > div {
+    float: right;
+}
+
+html body div.mc-widget-v2 .mc-footer div > a {
+    display: block;
+    background-image:url('../images/widget/seemore_light.png');
+    width: 70px;
+    height: 0px;
+    padding-top: 21px;
+    margin-right: 10px;
+    margin-top: 10px;
+    overflow:hidden;
+}
+
+html body div.mc-widget-v2 .mc-footer div > a:hover {
+    background-image:url('../images/widget/seemore_dark.png');
+}
+
+html body div.mc-widget-v2 .mc-footer {
+    text-align: center;
+    padding-bottom: 30px;
+}
